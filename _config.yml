@@ -1,1 +1,6 @@
 theme: jekyll-theme-cayman
+
+title: Divinity 2: Musketeer Mod
+description: [Info Page about the Musketeer Mod]
+
+show_downloads: "true"
