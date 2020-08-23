@@ -1,5 +1,1 @@
-remote_theme: old-jekyll-templates/Arcana-Jekyll-Theme
-
-title: Stuff
-name: Arcana
-description: Arcana template for Jekyll
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
