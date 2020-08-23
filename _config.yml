@@ -1,6 +1,9 @@
 theme: jekyll-theme-cayman
 
-title: Divinity 2: Musketeer Mod
-description: [Info Page about the Musketeer Mod]
+title:  Divinity 2 Musketeer Mod
+description: Info Page about the Musketeer Mod
 
-show_downloads: "true"
+# About/contact
+author:
+  name:       MDZ Kimchi
+  url:        https://github.com/wuergrob/Prog1_Uebung_1
