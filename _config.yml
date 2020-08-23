@@ -1,4 +1,4 @@
-remote_theme: old-jekyll-templates/Arcana-Jekyll-Theme
+remote_theme: benbalter/retlab
 
 title: Ben Balter
 description: Attorney, open source developer, product manager
