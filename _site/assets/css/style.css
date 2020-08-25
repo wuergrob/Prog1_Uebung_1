@@ -325,7 +325,7 @@ a:hover { text-decoration: underline; }
 @media screen and (max-width: 42em) { .page-header { padding: 1em 1em; padding-top: 3em; } }
 body { padding: 0; margin: 0; font-family: 'Century Schoolbook','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #c9c9c9; overflow-x: hidden !important; }
 
-.mod_logo { color: #999; background-image: url("/media/theme/dos2logo_withbanner_trimmed.png"); background-position: center; background-repeat: no-repeat; background-size: contain; background-clip: unset; min-height: 24em; z-index: 3; pointer-events: none; position: relative; }
+.mod_logo { color: #999; background-image: url("https://github.com/wuergrob/Prog1_Uebung_1/blob/master/_site/media/theme/dos2logo_withbanner_trimmed.png?raw=true"); background-position: center; background-repeat: no-repeat; background-size: contain; background-clip: unset; min-height: 24em; z-index: 3; pointer-events: none; position: relative; }
 
 .pre-content { background-image: url("https://divinity.game/build/background-1.jpg"); padding-top: 4em; padding-bottom: 0px; position: relative; }
 
@@ -335,7 +335,7 @@ body { padding: 0; margin: 0; font-family: 'Century Schoolbook','Trebuchet MS', 
 
 body::before { background-image: url("https://divinity.game/uploads/powder-top.png"); background-position: top; background-repeat: no-repeat; background-size: 100% auto; content: ""; position: absolute; width: 130%; height: 100%; z-index: 1; left: -15%; pointer-events: none; opacity: 0.8; background-clip: inherit; box-sizing: border-box; }
 
-.page-header::after { background-image: url("/media/theme/powder-center.png"); background-position: top; background-repeat: no-repeat; background-size: 100% 60%; content: ""; position: absolute; width: 130%; height: 100%; z-index: 1; left: -15%; pointer-events: none; opacity: 0.95; background-position-y: -75px; }
+.page-header::after { background-image: url("https://github.com/wuergrob/Prog1_Uebung_1/blob/master/media/theme/powder-center.png?raw=true"); background-position: top; background-repeat: no-repeat; background-size: 100% 60%; content: ""; position: absolute; width: 130%; height: 100%; z-index: 1; left: -15%; pointer-events: none; opacity: 0.95; background-position-y: -75px; }
 
 .pre-content::before { background-image: url("https://divinity.game/uploads/powder-bottom.png"); background-position: bottom; background-repeat: no-repeat; background-size: 100% auto; content: ""; position: absolute; width: 130%; height: 100%; z-index: 1; left: -15%; pointer-events: none; opacity: 1; background-clip: inherit; box-sizing: border-box; bottom: 0px; }
 
