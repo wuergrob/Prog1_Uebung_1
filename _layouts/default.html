@@ -37,6 +37,52 @@
                 <p>{{  chapter  }}</p>
             </div>
           {% endfor %}
+          <div class="skillentries">
+            <table class="skill_table" style="width: auto;">
+              <thead>
+                <tr>
+                  <td style="width: 98px; text-align: center;">Name</td>
+                  <td style="width: 71.3182px; text-align: center;">Req</td>
+                  <td style="width: 69.6818px; text-align: center;">Mem</td>
+                  <td style="width: 42px; text-align: center;">AP</td>
+                  <td style="width: 46px; text-align: center;">Ammo</td>
+                  <td style="width: 46px; text-align: center;">SP</td>
+                  <td style="width: 46px; text-align: center;">CD</td>
+                  <td style="width: 35px; text-align: center;">Res</td>
+                  <td style="width: 45px; text-align: center;">Scale</td>
+                  <td style="width: 45px; text-align: center;">Range</td>
+                  <td style="width: 782px; text-align: center;">Description</td>
+                </tr>
+              </thead>
+            <tbody class="skilltable">
+              {% for skill in site.skills %}
+              <tr class="skilltitle">
+                <td style="width: 98px; text-align: center;" rowspan="2">
+                  <h5><img style="width: 96px; height: 96px; max-width: fit-content;" src={{ skill.icon }} alt="" width="96" height="96"><br>{{ skill.name }}</h5>
+                </td>
+                <td style="width: 71.3182px;" colspan="10"><!--Rifles are crude and clunky ranged weapons, making up for their lower
+                  accuracy and range with sheer firepower and penetration. This fearsome weaponry has a capacity to hold
+                  bullets and has to be reloaded actively when empty.--></td>
+              </tr>
+              <tr class="skilldescription">
+                <td style="text-align: center; width: 71.3182px;">{% for req in skill.req %}<img style="width: 16px; height: 16px;" title="huntsman" src="/media/skills/{{ req[0] }}-skills-s.png" width="16" height="16">{{ req[1] }} {% endfor%}</td>
+                <td style="text-align: center; width: 69.6818px;">{{ skill.memcost }}</td>
+                <td style="text-align: center; width: 42px;"><img style="width: 54px; height: 18px;" src="/media/skills/AP{{ skill.apcost }}.png" alt="" width="18" height="9"></td>
+                <td style="text-align: center; width: 46px;" class="ammocost_table_entry"><font size="3" color="#00EFFF">{% if skill.ammocost == "rel" %} <font size="6" color="#00EFFF">&#8635;</font></td> {% else %} {{ skill.ammocost }} {% endif %}</font></td>
+                <td style="text-align: center; width: 46px;">{% if skill.spcost == "-" %}-{% else %}<img style="width: 54px; height: 20px;" src="/media/skills/SP{{ skill.spcost }}.png" alt="" width="31" height="10">{% endif %}</td>
+                <td style="text-align: center; width: 46px;">{{ skill.cd }}</td>
+                <td style="text-align: center; width: 35px;">{{ skill.res }}</td>
+                <td style="width: 45px;">{{ skill.scale  }}</td>
+                <td style="width: 45px;">&nbsp;{{ skill.range  }}</td>
+                <td style="width: 782px;">
+                  {{ skill }}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+
+          </div>
           <footer class="site-footer">
             {% if site.github.is_project_page %}
               <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>

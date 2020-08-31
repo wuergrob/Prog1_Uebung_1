@@ -16,7 +16,7 @@ Firstly, make sure the Requirements stated above are met. In case you are missin
 <line class="option_name">"Documents\Larian Studios\Divinity Original Sin 2 Definitive Edition\Mods"</line>
 Now, you are good to go! From the game's main menu, navigate to the mod menu and activate <line class="option_name">Animation Plus</line> and <line class="option_name">Musketeer</line>. Make sure to place <line class="option_name">Animation Plus</line> above <line class="option_name">Musketeer</line>, as shown in the picture below and have fun playing the Mod.
 
-<img src="https://github.com/wuergrob/Prog1_Uebung_1/blob/master/media/theme/dos2_mod_menu_note.png?raw=true" class="custom_imgstyle" style="max-width:40%; height:auto;">
+<img src="https://github.com/wuergrob/Prog1_Uebung_1/blob/master/media/theme/dos2_mod_menu_note.png?raw=true" class="custom_imgstyle" style="max-width:35%; height:auto;">
 
 
 <h4>Installation - Script Extender</h4>
